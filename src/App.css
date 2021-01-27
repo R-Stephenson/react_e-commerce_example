@@ -3,7 +3,10 @@
   --brightWhite: #ffffff;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainYellow: #f3d11d;
+  --offWhite: #ffffffbf;
+  --offBlack: #1e2024;
+  --mainPink: #d70094;
 }
 
 body {
@@ -17,8 +20,8 @@ body {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
-.text-blue {
-  color: var(--mainBkgd);
+.text-pink {
+  color: var(--mainPink);
 }
 
 .text-bright {

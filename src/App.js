@@ -10,9 +10,9 @@ import Cart from "./components/Cart";
 import Default from "./components/Default";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faCartPlus);
+library.add(faShoppingBasket);
 
 class App extends Component {
   render() {
