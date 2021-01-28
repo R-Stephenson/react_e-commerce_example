@@ -25,9 +25,9 @@ export default class Product extends Component {
               }}
             >
               {inCart ? (
-                <p className="text-capitalise mb-0" disabled>
+                <p className="text-capitalise font-weight-bold mb-0" disabled>
                   {" "}
-                  in cart
+                  In Basket
                 </p>
               ) : (
                 <FontAwesomeIcon icon="shopping-basket" />
@@ -52,6 +52,7 @@ const ProductWrapper = styled.div`
 .card{
   border-color:transparent;
   transition: all 0.3s linear;
+  //background:transparent;
 }
 
 .card-footer{
@@ -85,7 +86,7 @@ const ProductWrapper = styled.div`
   padding:0.2rem 0.4rem;
   background: var(--brightWhite);
   border:none;
-  color:var(--mainPink);
+  color:var(--offWhite);
   font-size:1.4rem;
   border-radius:0.5rem 0 0 0;
   transform: translate(100%, 100%);
@@ -95,8 +96,9 @@ const ProductWrapper = styled.div`
   transform: translate(0%, 0%);
 }
 .cart-btn:hover{
-  color:var(--mainWhite);
-  background:var(--mainPink);
+  //color:var(--mainWhite);
+  //background:var(--mainPink);
+  color:var(--mainPink);
   cursor: pointer;
   transition all 0s ease-in-out;
 

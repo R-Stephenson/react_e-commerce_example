@@ -11,12 +11,27 @@ export const ButtonContainer = styled.button`
   padding: 0.2rem 0.5rem;
   cursor: pointer;
   margin: 0.2rem 0.5rem 0;
-  transition: all 0.3s ease-in-out;
+  //transition: all 0.3s ease-in-out;
   &:hover {
-    color: var(--mainYellow);
-    // border: 0.05rem solid var(--offBlack);
+    //   color: var(--mainOrange);
+    //   border-bottom: 0.05rem solid var(--offBlack);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
   }
   &:focus {
     outline: none;
+  }
+  &:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 0.0625rem;
+    width: 0px;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  &:hover:after {
+    width: 100%;
+    background: var(--mainOrange);
   }
 `;

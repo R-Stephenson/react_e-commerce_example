@@ -36,17 +36,32 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-  background: var(--mainBkgd);
+  background: var(--brightWhite);
   .nav-link {
     color: var(--offWhite) !important;
     opacity: 1 !important;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-transform: capitalize;
     &:hover {
-      color: var(--mainYellow) !important;
+      color: var(--offWhite) !important;
+      transform: scale(1.2);
+      transition: all 0.2s ease-in-out;
     }
     &:focus {
       outline: none;
+    }
+    &:after {
+      content: "";
+      display: block;
+      margin: auto;
+      height: 1px;
+      width: 0px;
+      background: transparent;
+      transition: width 0.3s ease, background-color 0.3s ease;
+    }
+    &:hover:after {
+      width: 100%;
+      background: var(--mainOrange);
     }
   }
 `;

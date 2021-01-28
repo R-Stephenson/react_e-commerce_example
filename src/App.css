@@ -4,9 +4,10 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #f3d11d;
-  --offWhite: #ffffffbf;
+  --offWhite: #646464;
   --offBlack: #1e2024;
   --mainPink: #d70094;
+  --mainOrange: #ed7d31;
 }
 
 body {
@@ -16,12 +17,14 @@ body {
 }
 
 .text-title {
-  font-family: "Staatliches", cursive;
+  /* font-family: "Staatliches", cursive; */
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 .text-pink {
-  color: var(--mainPink);
+  color: var(--offWhite);
+  font-weight: lighter;
 }
 
 .text-bright {
