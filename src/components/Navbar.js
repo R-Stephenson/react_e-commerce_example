@@ -12,7 +12,7 @@ export default class Navbar extends Component {
         <Link to="/">
           <img
             src={logo}
-            style={{ height: 80, width: 80 }}
+            style={{ height: 90, width: 90 }}
             alt="store"
             className="navbar-brand"
           />
@@ -26,7 +26,10 @@ export default class Navbar extends Component {
         </ul>
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
-            <FontAwesomeIcon icon="shopping-basket" className="mr-2" />
+            <FontAwesomeIcon
+              icon="shopping-basket"
+              className="mr-2 basket-icon"
+            />
             basket
           </ButtonContainer>
         </Link>
@@ -38,12 +41,12 @@ export default class Navbar extends Component {
 const NavWrapper = styled.nav`
   background: var(--brightWhite);
   .nav-link {
-    color: var(--offWhite) !important;
+    color: var(--mainGrey) !important;
     opacity: 1 !important;
     font-size: 1.2rem;
     text-transform: capitalize;
     &:hover {
-      color: var(--offWhite) !important;
+      color: var(--mainGrey) !important;
       transform: scale(1.2);
       transition: all 0.2s ease-in-out;
     }
