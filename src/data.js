@@ -14,7 +14,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Product XL",
-    img: "img/product-1.png",
+    img: "img/product-2.png",
     price: 16,
     company: "Company B",
     info:
@@ -26,7 +26,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Product - Extra Black",
-    img: "img/product-1.png",
+    img: "img/product-3.png",
     price: 8,
     company: "Company A",
     info:
@@ -38,7 +38,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Product - Cream",
-    img: "img/product-1.png",
+    img: "img/product-4.png",
     price: 18,
     company: "Company C",
     info:
@@ -50,7 +50,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Product Vintage",
-    img: "img/product-1.png",
+    img: "img/product-5.png",
     price: 24,
     company: "Company C",
     info:
@@ -62,7 +62,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Product Retro",
-    img: "img/product-1.png",
+    img: "img/product-6.png",
     price: 17,
     company: "Company A",
     info:
@@ -74,7 +74,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Product NEW",
-    img: "img/product-1.png",
+    img: "img/product-7.png",
     price: 30,
     company: "Company D",
     info:
@@ -86,7 +86,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Product Used",
-    img: "img/product-1.png",
+    img: "img/product-8.png",
     price: 2,
     company: "Company B",
     info:
