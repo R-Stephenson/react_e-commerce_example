@@ -7,6 +7,7 @@ import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
+import Modal from "./components/Modal";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
+        <Modal />
       </React.Fragment>
     );
   }

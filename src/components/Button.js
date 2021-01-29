@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ButtonContainer = styled.button`
   text-transform: capitalize;
   font-size: 1.15rem;
+  font-weight: ${(props) => (props.bold ? "bold" : "normal")};
   background: transparent;
   border: none;
   color: var(--mainGrey);

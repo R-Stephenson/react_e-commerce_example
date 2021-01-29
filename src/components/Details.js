@@ -48,16 +48,15 @@ export default class Details extends Component {
                     {/* buttons */}
                     <div>
                       <Link to="/">
-                        <ButtonContainer className="font-weight-bold">
-                          back to products
-                        </ButtonContainer>
+                        <ButtonContainer bold>back to products</ButtonContainer>
                       </Link>
                       <ButtonContainer
+                        bold
                         disabled={inCart ? true : false}
                         onClick={() => {
                           value.addToCart(id);
+                          value.openModal(id);
                         }}
-                        className="font-weight-bold"
                       >
                         {inCart ? "inCart" : "add to basket"}
                       </ButtonContainer>
