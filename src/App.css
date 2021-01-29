@@ -25,3 +25,27 @@ body {
 .text-bright {
   color: var(--brightWhite);
 }
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainGrey);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainGrey) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainGrey) !important;
+  color: var(--brightWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainGrey);
+}
+
+.btn-outline-danger {
+  border-radius: 0 !important;
+}

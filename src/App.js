@@ -10,9 +10,12 @@ import Default from "./components/Default";
 import Modal from "./components/Modal";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
+import {
+  faShoppingBasket,
+  faTrashAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faShoppingBasket);
+library.add(faShoppingBasket, faTrashAlt);
 
 class App extends Component {
   render() {
