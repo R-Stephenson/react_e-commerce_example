@@ -9,21 +9,32 @@ export default class Navbar extends Component {
   render() {
     return (
       <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
-        <Link to="/">
+        <Link to="/product-list">
           <img
             src={logo}
             style={{ height: 90, width: 90 }}
             alt="store"
-            className="navbar-brand"
+            className="navbar-brand mx-3 pr-3"
           />
         </Link>
         <ul className="navbar-nav align-items-center">
-          <li className="nav-item ml-5">
+          <li className="nav-item ml-5 mx-auto">
             <Link to="/" className="nav-link">
+              home
+            </Link>
+          </li>
+          <li className="nav-item ml-3 mx-auto">
+            <Link to="/" className="nav-link">
+              About Us
+            </Link>
+          </li>
+          <li className="nav-item ml-3 mx-auto">
+            <Link to="/product-list" className="nav-link">
               products
             </Link>
           </li>
         </ul>
+
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <FontAwesomeIcon
@@ -40,11 +51,17 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
   background: var(--brightWhite);
+  img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+  }
+
   .nav-link {
     color: var(--mainGrey) !important;
     opacity: 1 !important;
     font-size: 1.2rem;
     text-transform: capitalize;
+
     &:hover {
       color: var(--mainGrey) !important;
       transform: scale(1.2);

@@ -4,6 +4,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
+import Home from "./components/Home";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
@@ -23,7 +24,8 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={Home} />
+          <Route path="/product-list" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
