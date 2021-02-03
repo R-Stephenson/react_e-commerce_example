@@ -14,10 +14,13 @@ export default class AboutUs extends Component {
             <h1>Turn up the MIC!</h1>
             <br />
             <h2 className="mb-0 pb-0">
-              <strong>•</strong> <span className="font-weight-bold">M</span>
-              otivation <strong>•</strong>{" "}
-              <span className="font-weight-bold">I</span>nnovation{" "}
-              <strong>•</strong> <span className="font-weight-bold">C</span>
+              <span className="font-weight-bold">M</span>
+              otivation, <span className="font-weight-bold">I</span>nnovation,
+              <span className="text-lowercase">
+                {" "}
+                <small>and</small>
+              </span>{" "}
+              <span className="font-weight-bold">C</span>
               onversation
             </h2>
             <div>
