@@ -13,7 +13,9 @@ export default class Home extends Component {
         <div className="row">
           <div className="col-10 mx-auto text-center text-grey mt-5 mb-3">
             <h2 className="mb-0 pb-0">
-              That second you get a great idea... <strong>* PING! *</strong>
+              That second you get a great idea... <br />
+              <br />
+              <strong>* PING! *</strong>
             </h2>
           </div>
         </div>
