@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../logo.svg";
+import logo from "../media/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
@@ -24,7 +24,7 @@ export default class Navbar extends Component {
             </Link>
           </li>
           <li className="nav-item ml-3 mx-auto">
-            <Link to="/" className="nav-link">
+            <Link to="/about-us" className="nav-link">
               About Us
             </Link>
           </li>

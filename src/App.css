@@ -65,7 +65,7 @@ body {
 .on {
   animation: fadeIn forwards;
   visibility: hidden;
-  animation-delay: 1.4s;
+  animation-delay: 1.2s;
 }
 @keyframes fadeIn {
   to {

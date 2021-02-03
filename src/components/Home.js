@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
 
-import bulbOn from "../bulbOn.svg";
-import bulbOff from "../bulbOff.svg";
+import bulbOn from "../media/bulbOn.svg";
+import bulbOff from "../media/bulbOff.svg";
 
 export default class Home extends Component {
   render() {
@@ -13,10 +13,7 @@ export default class Home extends Component {
         <div className="row">
           <div className="col-10 mx-auto text-center text-grey mt-5 mb-3">
             <h2 className="mb-0 pb-0">
-              The moment you get an idea...
-              <br />
-              <br />
-              <strong>* PING! *</strong>
+              That second you get a great idea... <strong>* PING! *</strong>
             </h2>
           </div>
         </div>
