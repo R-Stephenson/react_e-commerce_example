@@ -47,7 +47,7 @@ export default class Home extends Component {
             <Link to="/product-list">
               <ButtonContainer bold>browse our products</ButtonContainer>
             </Link>
-            <Link to="/cart">
+            <Link to="/about-us">
               <ButtonContainer bold>Discover who we are</ButtonContainer>
             </Link>
           </div>
