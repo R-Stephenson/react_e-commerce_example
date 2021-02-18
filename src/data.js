@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Product - Black",
+    title: "Purple Candy",
     img: "img/product-1.png",
     price: 10,
     company: "Company A",
@@ -13,7 +13,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Product XL",
+    title: "Midnight Sun",
     img: "img/product-2.png",
     price: 16,
     company: "Company B",
@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "Product - Extra Black",
+    title: "Vintage Sea",
     img: "img/product-3.png",
     price: 8,
     company: "Company A",
@@ -37,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Product - Cream",
+    title: "Blushed Sand",
     img: "img/product-4.png",
     price: 18,
     company: "Company C",
@@ -49,7 +49,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Product Vintage",
+    title: "Classic Sky",
     img: "img/product-5.png",
     price: 24,
     company: "Company C",
@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Product Retro",
+    title: "Ripe Grapes",
     img: "img/product-6.png",
     price: 17,
     company: "Company A",
@@ -73,7 +73,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Product NEW",
+    title: "Glowing Night",
     img: "img/product-7.png",
     price: 30,
     company: "Company D",
@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Product Used",
+    title: "Land and Sea",
     img: "img/product-8.png",
     price: 2,
     company: "Company B",

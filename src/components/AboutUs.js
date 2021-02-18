@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
         {/* start of Main page container */}
         <div className="row">
           <div className="col-10 text-capitalize mx-auto text-center text-grey mt-5 mb-3">
-            <h1>Turn up the MIC!</h1>
+            <h1>Turn on the MIC!</h1>
             <br />
             <h2 className="mb-0 pb-0">
               <span className="font-weight-bold">M</span>
@@ -52,13 +52,13 @@ export default class AboutUs extends Component {
                 <br />
                 <br />
                 Established in 2020 from a 2-PC set-up in a home office, our
-                founder, Romana Stephenson, elevated <em>insert</em> into a
-                multi-million pound company that is focused on community, both
-                in business structure and product output. Now <em>insert</em>{" "}
-                employs over 300 staff in 6 countries across 3 continents, and
-                it is growing! Here, at <em>insert</em> we work to a 3-step beat
-                that energises great minds, promotes inclusivity and offers a
-                world stage to the passionate. <br /> <br />
+                founder, Romana, elevated <em>insert</em> into a multi-million
+                pound company that is focused on community, both in business
+                structure and product output. Now <em>insert</em> employs over
+                300 staff in 6 countries across 3 continents, and it is growing!
+                Here, at <em>insert</em> we work to a 3-step beat that energises
+                great minds, promotes inclusivity and offers a world stage to
+                the passionate. <br /> <br />
                 <strong>
                   So, what is the breakdown of MIC, what does it mean, and how
                   does it work?
